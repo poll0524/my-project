@@ -1,0 +1,43 @@
+<!--pages/details/details.wxml-->
+<import src='../../wxParse/wxParse.wxml'/>
+<import src="../template/template.wxml" />
+
+<view class='{{pageStyle}}'>
+  <view class='title'>{{detailsData.title}}</view>
+  <view class='publish'>
+    <view class='author'>{{detailsData.author?'编辑人：'+detailsData.author:''}}</view>
+    <view class='date'>{{detailsData.createtime}}</view>
+  </view>
+  <view class='summary'>
+    <text>{{detailsData.intro}}</text>
+  </view>
+  <view class='share'>
+    <button hover-class='none' wx:if='{{isShare}}' bindtap='goBackIndex'>
+      <view class='iconfont icon-tianchongxing-'></view>
+    </button>
+
+    <button open-type='share'>
+      <i class='iconfont icon-fenxiang'></i>
+    </button>
+
+    <button bindtap='sharePengyouQuan'>
+      <view class='iconfont icon-pengyouquan-copy'></view>
+    </button>
+  </view>
+
+  <view class='content'>
+    <template is="wxParse" data="{{wxParseData:details_content.nodes}}" />
+  </view>
+
+  <view style='height:80rpx;'></view>
+
+  <!-- 分享朋友圈弹框 -->
+  <view class='sharePop' wx:if='{{sharePopFlag}}' bindtap='hideSharePop' catchtouchmove="ture">
+    <!-- <canvas class='stroke'disable-scroll="true" catchtap='empty' style="width: 80%;height: 800rpx;" canvas-id="sharePengYouQuan"></canvas> -->
+    <canvas class='stroke' disable-scroll="true" catchtap='empty' bindtouchstart="empty"  canvas-id="sharePengYouQuan" ></canvas>
+
+    <button type='warn' catchtap='savePhoto' size='mini'><i class='iconfont icon-fenxiang'></i> 保存图片</button>
+  </view>
+  <!-- 授权弹框 -->
+  <template wx:if='{{authorizePopFalg}}' is="authorizePop"/>
+</view>

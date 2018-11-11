@@ -1,0 +1,14 @@
+ 
+<view class='imgBox'>
+  <image src='../../utils/login.gif'></image>
+</view>
+
+ <button 
+    wx:if="{{canIUse}}" 
+    open-type="getUserInfo" 
+    bindgetuserinfo="getUserInfo"
+>获取用户信息授权</button>
+
+<view class='summary'>
+  公司简介:
+</view>

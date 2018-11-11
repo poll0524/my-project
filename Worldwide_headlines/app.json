@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/details/details",
+    "pages/user/user",
+    "pages/search/search"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#d23c3e",
+    "navigationBarTitleText": "箐花池养生",
+    "navigationBarTextStyle": "light"
+  }
+}

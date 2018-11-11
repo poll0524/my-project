@@ -1,0 +1,61 @@
+/* pages/search/search.wxss */
+@import '/pages/template/template.wxss';
+
+.page{
+  font-size: 32rpx;
+}
+.search-box{
+  display: flex;
+  margin-top: 20rpx;
+  height: 100rpx;
+}
+.input-box{
+  display: flex;
+  align-items: center;
+  width: 70%;
+  margin-left: 10rpx;
+  background-color: #eee;
+  border-radius: 10rpx;
+  height: 66rpx;
+}
+button{
+  margin:0 0 0 20rpx;
+  padding:0;
+  height:66rpx;
+  line-height:66rpx!important;
+  width:180rpx;
+
+}
+input{
+  width: 500rpx;
+  height: 66rpx;
+  background-color: transparent;
+}
+
+.hot{
+  height: 60rpx;
+  line-height: 60rpx;
+  color: #ccc;
+  margin-top: 20rpx;
+  border-top: 1rpx solid #eee;
+  border-bottom: 1rpx solid #eee;
+}
+.hot-list{
+  display: flex;
+  flex-wrap: wrap;
+}
+.hot-list>view{
+  width: 49%;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-indent: 20rpx;
+  border-bottom: 1rpx solid #eee;
+}
+
+.hot-list>view:nth-child(odd){
+  border-right: 1rpx solid #eee;
+}
+
+
+
+
