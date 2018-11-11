@@ -1,0 +1,1842 @@
+@charset "gbk";
+
+body, a{
+    color:#515050;
+}
+
+a:hover{
+    color:#000000;
+}
+
+#topContainer{
+    position:relative;
+    width:1002px;
+    margin:0px auto;
+}
+
+/*  ............................................ header ............................................  */
+#headerContainer{
+    position:relative;
+    width:100%;
+    height:266px;
+    background-repeat:no-repeat;
+}
+
+#header .help{
+    margin-right:6px;
+    text-align:right;
+}
+
+#header .help img{
+    vertical-align:middle;
+}
+
+#header .logo{
+    position:absolute;
+    left:50px;
+    top:100px;
+    width:350px;
+    line-height:normal;
+    font-size:28px;
+    font-weight:bold;
+    font-family:"宋体";
+    color:#000;
+}
+
+/*  ............................................ 横向导航 风格2 ............................................  */
+#menuContainer{
+    position:absolute;
+    left:0px;
+    top:150px;
+    width:100%;			/* 本句不可更改。注意，本框架的导航风格是 2222222222222 */
+    text-align:left;
+    z-index:100;
+}
+
+#menuContainer .mainMenuContainer{
+    position:relative;
+    margin-left:15px;	/* 本句调整主菜单的左定位 */
+    margin-top:25px;
+}
+
+#menuContainer .mainMenuContainer a{
+    display:block;
+    float:left;
+    color:#0685A4;
+    font-size:14px;
+    font-weight:bold;
+    padding:0px 7px;
+}
+
+#menuContainer .mainMenuContainer a:hover{
+    text-decoration:none;
+}
+
+#menuContainer .mainMenuContainer span{
+    display:block;
+    float:left;
+    width:8px;
+    height:28px;
+    background-repeat:no-repeat;
+    background-position:0px -1px;
+}
+
+#menuContainer .mainMenuContainer .activated{
+    color:#CF3;
+    font-size:16px;
+}
+
+#menuContainer .subMenuContainer{
+    position:relative;
+    margin-left:0px;	/* 本句调整子菜单的左定位，风格2 无需考虑宽度与右定位 */
+    margin-top:23px;
+}
+
+#menuContainer .subMenu{
+    display:none;
+    position:relative;
+    left:0px;			/* 本句不可省略！ */
+}
+
+#menuContainer .subMenu span{
+    display:block;		/* subMenu span即使不使用，也应该设为block！以免js出错 */
+    float:left;
+    width:0px;
+    height:100%;
+}
+
+#menuContainer .subMenu a{
+    display:block;
+    float:left;
+    height:26px;
+    line-height:26px;
+    padding:0px 10px;
+    background-repeat:repeat-x;
+}
+
+#menuContainer .subMenu .subMenuLeft{
+    padding:0px;
+}
+
+#menuContainer .subMenu .subMenuRight{
+    padding:0px;
+}
+
+/*   菜单的定位指示（如果有的话）应该加给 .subMenuLast。注意，必须是no-repeat的  */
+/*#menuContainer .subMenu .subMenuLast{
+	background-repeat:no-repeat;
+	background-image:url(../......);
+}*/
+
+/*  .................................................. 大框架部分 .................................................. */
+#bodyContainer{
+    position:relative;
+    width:100%;
+    background-color:#C3E8F1;
+}
+
+#bodyContainer .borderContainer{
+    float:left;
+    width:0px;
+    height:100%;
+    display:none;
+}
+
+#bodyContainer .firstContainer{
+    width:1002px;
+    height:288px;
+    overflow:hidden;
+    position:relative;
+    float:left;
+    margin-bottom:10px;
+}
+
+#bodyContainer .secondContainer{
+    width:1002px;
+    position:relative;
+    float:left;
+}
+
+#bodyContainer .secondContainer .leftTwo{
+    position:relative;
+    width:680px;
+    padding-left:15px;
+    float:left;
+}
+
+#bodyContainer .secondContainer .rightTwo{
+    position:relative;
+    text-align:center;
+    width:260px;
+    float:left;
+}
+
+
+
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ videoPicture ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+.videoPicture{
+    width:249px;
+    height:288px;
+    margin:0px;
+}
+
+.videoPicture .modLeftTitle{
+    color:#FFFFFF;
+    margin-left:25px;
+    margin-top:35px;
+}
+
+.videoPicture .modRightTitle{
+    right:34px;
+    top:35px;
+    font-weight:normal;
+    font-size:12px;
+}
+
+.videoPicture .modRightTitle a{
+    color:#FFF;
+}
+
+.videoPicture .modLeftTopCorner{
+    width:1px;
+    height:1px;
+}
+
+.videoPicture .modRightTopCorner{
+    width:1px;
+}
+
+.videoPicture .modLeftBottomCorner{
+    height:1px;
+}
+
+.videoPicture .modContent{
+    margin-top:90px;
+    text-align:center;
+}
+
+.videoPicture img{
+    width:184px;
+    height:119px;
+}
+
+/*..........................................journal......................................................*/
+.journal {
+    margin:0px;
+    width:249px;
+    height:288px;
+}
+
+.journal .modLeftTitle{
+    margin-left:25px;
+    margin-top:35px;
+    color:#FFF;
+}
+
+.journal .modRightTitle{
+    right:34px;
+    top:35px;
+    font-weight:normal;
+    font-size:12px;
+}
+
+.journal .modRightTitle a{
+    color:#FFF;
+}
+
+.journal .modLeftTopCorner{
+    width:1px;
+    height:1px;
+}
+
+.journal .modRightTopCorner{
+    width:1px;
+}
+
+.journal .modLeftBottomCorner{
+    height:1px;
+}
+
+.journal .modContent{
+    margin-top:75px;
+    height:200px;
+    width:100%;
+}
+
+.journal .vertical{
+    margin-left:30px;
+    width:100%;
+    height:100%;
+    overflow:hidden;
+}
+
+.journal .modFeatureslideBlock{
+    float:left;
+    text-align:center;
+}
+
+.journal .modFeatureSlidePreview{
+    display:none;
+    width:150px;
+    overflow:hidden;
+}
+
+.journal .modFeatureSlidePreview span{
+    display:block;
+    width:100%;
+    height:18px;
+    text-align:center;
+    overflow:hidden;
+    margin:2px 0px;
+}
+
+.journal .modFeatureSlideButtons{
+    float:left;
+    width:24px;
+    height:100%;
+}
+
+.journal .modFeatureSlideButtons a{
+    display:block;
+    width:22px;
+    height:22px;
+}
+
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ teacherBlog ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+.teacherBlog{
+    margin:0px;
+    width:249px;
+    height:288px;
+}
+
+.teacherBlog .modLeftTitle{
+    margin-left:25px;
+    margin-top:35px;
+    color:#FFFFFF;
+}
+
+.teacherBlog .modRightTitle{
+    right:34px;
+    top:35px;
+    font-weight:normal;
+    font-size:12px;
+}
+
+.teacherBlog .modRightTitle a{
+    color:#FFF;
+}
+
+.teacherBlog .modLeftTopCorner{
+    width:1px;
+    height:1px;
+}
+
+.teacherBlog .modRightTopCorner{
+    width:1px;
+}
+
+.teacherBlog .modLeftBottomCorner{
+    height:1px;
+}
+
+.teacherBlog .modContent{
+    margin:80px auto 0px auto;
+    width:168px;
+}
+
+.teacherBlog .modContent a{
+    float:left;
+    text-align:center;
+}
+
+.teacherBlog .modContent .modBlogPart{
+    float:left;
+    text-align:center;
+}
+
+.teacherBlog .modPart0{
+    width:70px;
+    height:70px;
+	
+}
+
+.teacherBlog .modPictureName{
+    width:80px;
+    height:19px;
+    overflow:hidden;
+}
+
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ businessCard ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+.businessCard{
+    width:480px;
+	float:left;
+}
+
+.businessCard .modLeftTitle{
+    height:20px;
+    top:-5px;
+    padding-top:20px;
+    color:#FFFFFF;
+    padding-left:40px;
+}
+
+.businessCard .modLeftTopCorner{
+    width:16px;
+    height:46px;
+}
+
+.businessCard .modRightTopCorner{
+    width:15px;
+}
+
+.businessCard .modLeftBottomCorner{
+    height:7px;
+}
+
+.businessCard .modContent{
+    height:194px;
+    background:#FFFFFF;
+}
+
+.businessCard .modPartImg{
+    float:left;
+    margin-right:5px;
+}
+
+.businessCard .modPartImg img{
+    width:180px;
+}
+
+.businessCard .modPartName{
+    display:block;
+    float:left;
+    width:170px;
+    line-height:20px;
+    font-weight:bold;
+}
+
+.businessCard .modPartArea{
+    display:block;
+    float:left;
+    width:260px;
+    line-height:20px;
+    font-weight:bold;
+}
+
+.businessCard .modUnit{
+    line-height:20px;
+}
+
+.businessCard .modUnit a{
+    color:#69A101;
+}
+
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ infoView ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+.infoView{
+    width:480px;
+	float: left;
+}
+
+.infoView .modLeftTitle{
+    top:-5px;
+    padding-top:20px;
+    height:20px;
+    color:#FFFFFF;
+    padding-left:40px;
+}
+
+.infoView .modRightTitle{
+    right:20px;
+    top:10px;
+    font-weight:normal;
+    font-size:12px;
+}
+
+.infoView .modRightTitle a{
+    color:#FFF;
+}
+
+.infoView .modLeftTopCorner{
+    width:16px;
+    height:46px;
+}
+
+.infoView .modRightTopCorner{
+    width:15px;
+}
+
+.infoView .modLeftBottomCorner{
+    height:7px;
+}
+
+.infoView .modContent{
+    height:194px;
+    background-color:#FFFFFF;
+}
+
+.infoView .modUnit{
+    float:left;
+    height:26px;
+}
+
+.infoView .modInline{
+    overflow:hidden;
+}
+
+.infoView .modPart0{
+    width:360px;
+    height:26px;
+    float:left;
+    overflow:hidden;
+    position:relative;
+}
+
+.infoView .modPart1{
+    width:70px;
+    display:block;
+    float:right;
+}
+
+.infoView .hotlist{
+    width:27px;
+    height:100%;
+    background-color:transparent;
+    position:absolute;
+    right:0px;
+    top:0px;
+}
+
+.infoView .hotlistimg{
+    background-image:url(../../imges//hot.gif);
+    background-repeat:no-repeat;
+    width:27px;
+    height:13px;
+    position:absolute;
+    top:50%;
+    margin-top:-7px;
+}
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ picView ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+.picView{
+    width:665px;
+}
+
+.picView .modLeftTitle{
+    top:-5px;
+    padding-top:20px;
+    height:20px;
+    color:#FFFFFF;
+    padding-left:40px;
+    background-position:10px 0px;
+}
+
+.picView .modRightTitle{
+    right:20px;
+    top:10px;
+    font-weight:normal;
+    font-size:12px;
+}
+
+.picView .modRightTitle a{
+    color:#FFF;
+}
+
+.picView .modLeftTopCorner{
+    width:16px;
+    height:46px;
+}
+
+.picView .modRightTopCorner{
+    width:15px;
+}
+
+.picView .modLeftBottomCorner{
+    height:7px;
+}
+
+.picView .modContent{
+    height:100%;
+    background-color:#FFFFFF;
+}
+
+.picView .modMarqueeContainer{
+    float:left;
+    width:430px;
+    height:100%;
+}
+
+.picView .modPartInfo{
+    width:134px;
+}
+
+.picView .modPart0{
+    padding:2px;
+    border:#CCC solid 1px
+}
+
+.picView .modPart0 img{
+    width:130px;
+    height:110px;
+    vertical-align:middle;
+}
+
+.picView .modPart1{
+    font-size:14px;
+    width:100px;
+    height:16px;
+    line-height:16px;
+    overflow:hidden;
+    margin-top:10px;
+}
+
+.picView .modPart2{
+    display:block;
+    font-size:14px;
+    width:100px;
+    height:18px;
+    line-height:18px;
+    overflow:hidden;
+    margin-top:6px;
+    margin-bottom:14px;
+    color:#6fa130;
+}
+
+.picView .modFeatureSlide{
+    float:left;
+    width:193px;
+    height:191px;
+    text-align:center;
+    margin-left:10px;
+    overflow:hidden;
+}
+
+.picView .modFeatureslideBlock{
+    width:180px;
+    margin:14px auto 2px auto;
+}
+
+.picView .modFeatureSlidePreview{
+    display:none;
+}
+
+.picView .modFeatureSlidePreview .modImgContainer{
+    height:114px;
+}
+
+.picView .modFeatureSlidePreview span{
+    display:block;
+    width:100px;
+    height:18px;
+    line-height:18px;
+    margin:2px auto 0px auto;
+    overflow:hidden;
+}
+
+.picView .modFeatureSlideButtons{
+    margin-left:14px;
+}
+
+.picView .modFeatureSlideButtons a{
+    float:left;
+    display:inline;
+    height:22px;
+    width:12px;
+}
+
+.picView .modFeatureSlideItems{
+    display:inline;
+}
+
+.picView .modFeatureSlideButtons .modFeatureSlidePrevious{
+    width:22px;
+}
+
+.picView .modFeatureSlideButtons .modFeatureSlideNext{
+    width: 22px;
+}
+
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ special520 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+.special520{
+    width:665px;
+    margin-right:0px;
+}
+
+.special520 .modLeftTitle{
+    height:20px;
+    background-position:10px 0px;
+    top:-5px;
+    padding-top:20px;
+    color:#FFF;
+    padding-left:40px;
+}
+
+.special520 .modRightTitle{
+    right:20px;
+    top:10px;
+    font-weight:normal;
+    font-size:12px;
+}
+
+.special520 .modRightTitle a{
+    color:#FFFFFF;
+}
+
+.special520 .modLeftTopCorner{
+    width:16px;
+    height:46px;
+}
+
+.special520 .modRightTopCorner{
+    width:15px;
+}
+
+.special520 .modLeftBottomCorner{
+    height:7px;
+}
+
+.special520 .modContent{
+    background-color:#FFFFFF;
+}
+
+.special520 .mod520Frame{
+    width:630px;
+    height:300px;
+}
+
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ area520Module ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+.area520Module .leftContent{
+    width:247px;
+    height:271px;
+    padding-top:25px;
+    text-align:left;
+    padding-left:7px;
+    float:left;
+}
+
+.area520Module .leftContent .title{
+    text-align:left;
+}
+
+.area520Module .rightContent{
+    float:left;
+    width:370px;
+    height:290px;
+    overflow:hidden;
+}
+
+.area520Module .subjectMenu{
+    width:260px;
+    height:30px;
+    padding-left:40px;
+    margin-top:10px;
+    margin-left:10px;
+    border-bottom-color:#B7D600;
+    border-bottom-style:solid;
+    border-bottom-width:2px;
+}
+
+.area520Module .subjectMenu .area520SubjectActive{
+    position:relative;
+    width:103px;
+    height:30px;
+    top:4px;
+    line-height:30px;
+    text-align:center;
+    float:left;
+    margin-right:5px;
+    color:#FD9546;
+    font-size:14px;
+    font-weight:bold;
+    cursor:pointer;
+    background-repeat:no-repeat;
+}
+
+.area520Module .subjectMenu .area520SubjectDesactive{
+    position:relative;
+    width:126px;
+    height:30px;
+    top:4px;
+    line-height:30px;
+    float:left;
+    text-align:center;
+    float:left;
+    color:#878787;
+    font-size:14px;
+    font-weight:bold;
+    margin-right:5px;
+    cursor:pointer;
+}
+
+.area520Module .recommendList{
+    width:100%;
+    height:100%;
+}
+
+.area520Module .recommendList .firstRecommendTitle{
+    line-height:20px;
+    color:#000000;
+    font-size:14px;
+    text-align:left;
+    font-weight:bold;
+}
+
+.area520Module .recommendList .firstRecommendContent{
+    margin-left:20px;
+    margin-top:10px;
+    margin-bottom:10px;
+    line-height:15px;
+    color:#666666;
+}
+
+.area520Module .recommendList .recommendUnit{
+    width:280px;
+    text-align:left;
+    margin-left:20px;
+}
+
+.area520Module .recommendUnit .unitLeft{
+    color:#6FA130;
+}
+
+.area520Module .hotsList{
+    width:100%;
+    height:100%;
+    text-align:left;
+}
+
+.area520Module .hotsList .hotUnit{
+    width:280px;
+    text-align:left;
+    padding-left:30px;
+    margin-left:5px;
+    margin-top:5px;
+}
+
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ classShows ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+.classShows{
+    width:245px;
+    margin-left:0px;
+    margin-right:0px;
+}
+
+.classShows .modLeftTitle{
+    top:-5px;
+    padding-top:20px;
+    padding-left:40px;
+    height:20px;
+    color:#FFFFFF;
+    font-weight:normal;
+    font-size:12px;
+    font-weight:bold;
+    background-position:10px 0px;
+}
+
+.classShows .modRightTitle{
+    right:20px;
+    top:10px;
+    font-weight:normal;
+    font-size:12px;
+}
+
+.classShows .modRightTitle a{
+    color:#FFF;
+}
+
+.classShows .modLeftTopCorner{
+    width:16px;
+    height:46px;
+}
+
+.classShows .modRightTopCorner{
+    width:15px;
+}
+
+.classShows .modLeftBottomCorner{
+    height:7px;
+}
+
+.classShows .modContent{
+    background-color:#FFFFFF;
+}
+
+.classShows .modInline{
+    height:22px;
+    width:500px;
+    background-repeat:no-repeat;
+    overflow:hidden;
+}
+
+.classShows .modUnit{
+    float:left;
+    width:200px;
+    height:22px;
+    margin-top:8px;
+    overflow:hidden;
+}
+
+.classShows .modPart0{
+    padding-right:2px;
+    color:#f68500;
+}
+
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ studentBlog ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+.studentBlog{
+    width:245px;
+    margin-left:0px;
+    margin-right:0px;
+}
+
+.studentBlog .modLeftTitle{
+    top:-5px;
+    padding-top:20px;
+    height:20px;
+    color:#FFFFFF;
+    padding-left:40px;
+}
+
+.studentBlog .modRightTitle{
+    right:20px;
+    top:10px;
+    font-weight:normal;
+    font-size:12px;
+}
+
+.studentBlog .modRightTitle a{
+    color:#FFF;
+}
+
+.studentBlog .modLeftTopCorner{
+    width:16px;
+    height:46px;
+}
+
+.studentBlog .modRightTopCorner{
+    width:15px;
+}
+
+.studentBlog .modLeftBottomCorner{
+    height:7px;
+}
+
+.studentBlog .modContent{
+    background-color:#FFFFFF;
+    height:225px;
+}
+
+.studentBlog .modContent a{
+    float:left;
+    text-align:center;
+    margin:10px;
+}
+
+.studentBlog .modContent .modBlogPart{
+    float:left;
+    text-align:center;
+    margin:5px;
+}
+
+.studentBlog .modPart0{
+    width:70px;
+    height:70px;
+}
+
+.studentBlog .modPictureName{
+    width:80px;
+    height:19px;
+    overflow:hidden;
+}
+
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ customPicture ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+.customPicture{
+    float:left;
+    margin:5px 0px;
+}
+
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ statistics ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+.statistics{
+    width:245px;
+    margin-left:0px;
+    margin-right:0px;
+}
+
+.statistics .modLeftTitle{
+    background-position:10px 0px;
+    top:-5px;
+    padding-top:20px;
+    height:20px;
+    color:#FFFFFF;
+    padding-left:40px;
+}
+
+.statistics .modLeftTopCorner{
+    width:16px;
+    height:46px;
+}
+
+.statistics .modRightTopCorner{
+    width:15px;
+}
+
+.statistics .modLeftBottomCorner{
+    height:7px;
+}
+
+.statistics	.modContent{
+    background-color:#FFF;
+}
+
+.statistics .modUnit{
+    float:left;
+    margin-top:8px;
+    width:100px;
+    overflow:hidden;
+}
+
+.statistics .modPart1{
+    color:#6DA12C;
+    font-weight:bold;
+}
+
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ friendLink ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+.friendLink{
+    width:245px;
+    margin-left:0px;
+    margin-right:0px;
+}
+
+.friendLink .modLeftTitle{
+    background-position:10px 0px;
+    top:-5px;
+    padding-top:20px;
+    height:20px;
+    color:#FFFFFF;
+    padding-left:40px;
+}
+
+.friendLink .modRightTitle{
+    right:20px;
+    top:10px;
+    font-weight:normal;
+    font-size:12px;
+}
+
+.friendLink .modRightTitle a{
+    color:#FFF;
+}
+
+.friendLink .modLeftTopCorner{
+    width:16px;
+    height:46px;
+}
+
+.friendLink .modRightTopCorner{
+    width:15px;
+}
+
+.friendLink .modLeftBottomCorner{
+    height:7px;
+}
+
+.friendLink	.modContent{
+    background-color:#FFFFFF;
+}
+
+
+.friendLink .modUnit{
+    float:left;
+    margin-top:8px;
+    margin-right:8px;
+    overflow:hidden;
+    width:200px;
+    height:22px;
+}
+
+.friendLink .modInline{
+    height:22px;
+    background-repeat:no-repeat;
+}
+
+/* .............................................. 页脚 .................................................. */
+#footer{
+    background-repeat:no-repeat;
+    height:169px;
+}
+
+#footer  a:hover{
+    text-decoration:none;
+}
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/*                                                             2级页面                                                             */
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+/* .............................................. 登录内含页 .................................................. */
+.loginIFrame{
+    position:absolute;
+    width:200px;
+    left:15px;
+    height:137px;
+    margin-top:15px;
+}
+
+.loginIFrame .loginUnit{
+    width:185px;
+    height:25px;
+    float:left;
+    margin:5px 0;
+}
+
+.loginIFrame .loginUnit input{
+    width:110px;
+    height:20px;
+    border:1px solid #DEEB51;
+    background-color:#F8FFD0;
+}
+
+.loginIFrame .loginButton input{
+    width:101px;
+    height:74px;
+    color:#FFF;
+    float:left;
+    font-size:16px;
+    font-weight:bold;
+    background-color:#FCDE8C;
+    border:none;
+    margin:8px 0 15px 5px;
+    background-repeat:no-repeat;
+    cursor:pointer;
+}
+
+.loginIFrame .loginHelp{
+    float:left;
+    width:70px;
+    margin-top:10px;
+}
+
+.loginIFrame .loginHelp a{
+    color:#F8931C;
+    font-weight:bold;
+}
+
+.logoutIFrame{
+    position:absolute;
+    left:30px;
+    width:186px;
+    height:137px;
+    margin-top:15px;
+}
+
+.logoutIFrame .linkButton input{
+    width:86px;
+    height:27px;
+    float:left;
+    color:#F8931C;
+    margin:5px 3px;
+    background-color:#F8FFD0;
+    border:1px solid #DEEB51;
+    cursor:pointer;
+}
+
+.logoutIFrame .logoutButton input{
+    width:101px;
+    height:74px;
+    color:#FFF;
+    margin:5px;
+    background-color:#FCE2A3;
+    font-weight:bold;
+    font-size:16px;
+    border:none;
+    background-repeat:no-repeat;
+    cursor:pointer;
+}
+
+/* ..............................................level2blog  .................................................. */
+.level2_blog{
+    width:700px;
+    top:10px;
+    left:10px;
+}
+
+.level3_editing .modLeftTitle{
+    height:35px;
+}
+
+.level2_blog .modContent{
+    background:#FFF;
+}
+
+.level2_blog .modGotoPage{
+    width:100%;
+    clear:left;
+    text-align:center;
+}
+
+.level2_blog .modLeftTopCorner{
+    width:16px;
+    height:46px;
+}
+
+.level2_blog .modRightTopCorner{
+    width:15px;
+}
+
+.level2_blog .modLeftBottomCorner{
+    height:7px;
+}
+
+.level2_blog .modUnit{
+    float:left;
+    width:95px;
+    height:120px;
+    overflow:hidden;
+    text-align:center;
+}
+
+.level2_blog .modUnit img{
+    width:80px;
+    height:80px;
+}
+
+.level2_blog .modUnit span{
+    width:80px;
+    height:15px;
+    display:block;
+}
+
+.level2_blog .modSVColumn{
+    color:#6D9B2F;
+    font-weight:bold;
+}
+
+.level2_blog .modGPSubmit{
+    width:40px;
+    height:25px;
+    border:0px;
+    background-repeat:no-repeat;
+}
+
+.level2_blog .modSubNavigate{
+    border-bottom:1px solid #ccc;
+    margin-bottom:10px;
+}
+
+.level2_blog .modGPSubmit:hover{
+    cursor:pointer;
+}
+
+/* .............................................. level520 .................................................. */
+.level520{
+    width:220px;
+    left:20px;
+}
+
+.level520 .modLeftTitle{
+    color:#FFF;
+    padding-left:20px;
+    padding-top:5px;
+}
+
+.level520 .modContent{
+    background:#FFF;
+}
+
+.level520 .modLeftTopCorner{
+    width:16px;
+    height:46px;
+}
+
+.level520 .modRightTopCorner{
+    width:15px;
+}
+
+.level520 .modLeftBottomCorner{
+    height:7px;
+}
+
+.level520 .modPictureUnit a{
+    float:left;
+    width:186px;
+    height:116px;
+    display:block;
+}
+
+.level520 .modPictureUnit img{
+    width:90px;
+    height:94px;
+}
+
+.level520 .modMsgUnit{
+    float:left;
+    height:24px;
+    overflow:hidden;
+}
+
+/* ..............................................level2_classes  .................................................. */
+.level2_classes{
+    width:700px;
+    left:10px;
+}
+
+.level2_classes .modLeftTitle{
+    height:35px;
+}
+
+.level2_classes .modContent{
+    background:#FFF;
+}
+
+.level2_classes .modGotoPage{
+    width:100%;
+    clear:left;
+    text-align:center;
+}
+
+.level2_classes .modLeftTopCorner{
+    width:16px;
+    height:46px;
+}
+
+.level2_classes .modRightTopCorner{
+    width:15px;
+}
+
+.level2_classes .modLeftBottomCorner{
+    height:7px;
+}
+
+.level2_classes .modSubNavigate{
+    border-bottom:1px solid #ccc;
+    margin-bottom:10px;
+}
+
+.level2_classes .modUnit{
+    margin:10px;
+    float:left;
+    text-align:center;
+    width:140px;
+    height:120px;
+    overflow:hidden;
+    width:650px;
+    border-bottom: dashed #CCCCCC 1px;
+}
+
+.level2_classes .modClassInfo{
+    float:left;
+    width:130px;
+}
+
+.level2_classes .modNews{
+    float:left;
+    width:500px;
+    overflow:hidden;
+}
+
+.level2_classes .modPart0{
+    display:block;
+    width:130px;
+    height:18px;
+    overflow:hidden;
+    font-size:14px;
+    font-weight:bold;
+}
+
+.level2_classes .modPart1{
+    display:block;
+    width:380px;
+    height:18px;
+    float:left;
+    text-align:left;
+    line-height:18px;
+    padding-left:55px;
+    background-repeat:no-repeat;
+    overflow:hidden;
+}
+
+.level2_classes .modPart2{
+    display:block;
+    width:80px;
+    height:18px;
+    line-height:18px;
+    float:left;
+    color:#34B9DD;
+}
+
+.level2_classes .modGotoPage{
+    width:100%;
+    overflow:hidden;
+    text-align:center;
+}
+
+.level2_classes .modGPSubmit{
+    width:40px;
+    height:25px;
+    border:0px;
+}
+
+.level2_classes .modSVColumn{
+    color:#6D9B2F;
+    font-weight:bold;
+}
+
+.level2_classes .modGPSubmit:hover{
+    cursor:pointer;
+}
+
+/* .............................................. level2info .................................................. */
+.level2_info{
+    width:975px;
+    left:10px;
+}
+
+.level2_info .modLeftTitle{
+    height:35px;
+}
+
+.level2_info .modContent{
+    background:#FFF;
+}
+
+.level2_info .modGotoPage{
+    width:100%;
+    clear:left;
+    text-align:center;
+}
+
+.level2_info .modLeftTopCorner{
+    width:16px;
+    height:46px;
+}
+
+.level2_info .modRightTopCorner{
+    width:15px;
+}
+
+.level2_info .modLeftBottomCorner{
+    height:7px;
+}
+
+.level2_info .modSubNavigate{
+    border-bottom:1px solid #ccc;
+    margin-bottom:10px;
+}
+
+.level2_info .modUnit{
+    background-repeat:no-repeat;
+    float:left;
+    border-bottom:dashed 1px;
+    width:900px;
+    font-size:12px;
+    margin:2px 0;
+}
+
+.level2_info .modPart0{
+    padding-left:25px;
+    float:left;
+    height:24px;
+    width:375px;
+    overflow:hidden;
+}
+
+.level2_info .modPart1{
+    float:left;
+    width:70px;
+    height:24px;
+    overflow:hidden;
+    padding-left:40px;
+}
+
+.level2_info .modPart2{
+    padding-right:60px;
+    float:right;
+}
+
+.level2_info .modGotoPage{
+    float:left;
+    width:100%;
+    text-align:center;
+}
+
+.level2_info .modSVColumn{
+    color:#6D9B2F;
+    font-weight:bold;
+}
+
+.level2_info .modGPSubmit{
+    width:40px;
+    height:25px;
+    border:0px;
+}
+
+.level2_info .modGPSubmit:hover{
+    cursor:pointer;
+}
+
+/* ..............................................level2picture  ......................................50............ */
+.level2_picture{
+    width:975px;
+    left:10px;
+}
+
+.level2_picture .modLeftTitle{
+    height:35px;
+}
+
+.level2_picture .modContent{
+    background:#FFF;
+}
+
+.level2_picture .modGotoPage{
+    width:100%;
+    clear:left;
+    text-align:center;
+}
+
+.level2_picture .modLeftTopCorner{
+    width:16px;
+    height:46px;
+}
+
+.level2_picture .modRightTopCorner{
+    width:15px;
+}
+
+.level2_picture .modLeftBottomCorner{
+    height:7px;
+}
+
+.level2_picture .modSubNavigate{
+    border-bottom:1px solid #ccc;
+    margin-bottom:10px;
+}
+
+.level2_picture .modUnit{
+    float:left;
+    width:165px;
+    text-align:center;
+}
+
+.level2_picture .modPart0{
+    display:block;
+    width:100%;
+    line-height:120px;
+    text-align:center;
+	
+}
+
+
+.level2_picture .modPart0 img{
+    vertical-align:middle;
+}
+
+.level2_picture .modPart1{
+    display:block;
+    width:130px;
+    height:18px;
+    overflow:hidden;
+    margin:0px auto;
+}
+
+.level2_picture .modPart2{
+    display:block;
+    width:130px;
+    height:30px;
+    overflow:hidden;
+    margin:0px auto;
+}
+
+.level2_picture .modGotoPage{
+    width:100%;
+    overflow:hidden;
+    text-align:center;
+}
+
+.level2_picture .modSVColumn{
+    color:#6D9B2F;
+    font-weight:bold;
+}
+
+.level2_picture .modGPSubmit{
+    width:40px;
+    height:25px;
+    border:0px;
+}
+
+.level2_picture .modGPSubmit:hover{
+    cursor:pointer;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------- */
+/*                                                             3级页面                                                             */
+/* ------------------------------------------------------------------------------------------------------------------------------- */
+/* ..............................................通用部分 .................................................. */
+.level_2_3 .level2{
+    width:720px;
+    float:left;
+}
+
+.level_2_3 .rightContainer{
+    width:250px;
+    float:left;
+}
+
+#bodyContainer .level3{
+    float:left;
+    width:730px;
+    text-align:center;
+}
+
+.level3 .modSubNavigate{
+    width:100%;
+    text-align:left;
+    height:30px;
+    line-height:30px;
+    margin-bottom:25px;
+    border-bottom:#999999 dashed 1px;
+}
+
+.level3 .modSubNavigate a:hover{
+    color:#FF0000;
+}
+
+.level3 .modSubNavigate .modSVColumn{
+    color:#6D9B2F;
+    font-weight:bold;
+}
+
+/* ..............................................level3_editing .................................................. */
+.level3_editing{
+    width:975px;
+    left:10px;
+}
+
+.level3_editing .modLeftTitle{
+    height:35px;
+}
+
+.level3_editing .modContent{
+    background:#FFF;
+}
+
+.level3_editing .modGotoPage{
+    width:100%;
+    clear:left;
+    text-align:center;
+}
+
+.level3_editing .modLeftTopCorner{
+    width:16px;
+    height:46px;
+}
+
+.level3_editing .modRightTopCorner{
+    width:15px;
+}
+
+.level3_editing .modLeftBottomCorner{
+    height:7px;
+}
+
+.level3_editing .modContentList{
+    width:100%;
+    text-align:center;
+}
+
+.level3_editing .modTitle font{
+    font-weight:bold;
+    color:#06C;
+}
+
+.level3_editing .modText{
+    margin:40px auto;
+    font-size:12pt;
+    text-align:left;
+}
+
+/* .................................................level3_info .................................................. */
+.level3_info{
+    width:975px;
+    left:10px;
+}
+
+.level3_info .modLeftTitle{
+    height:35px;
+}
+
+.level3_info .modContent{
+    background:#FFF;
+}
+
+.level3_info .modGotoPage{
+    width:100%;
+    clear:left;
+    text-align:center;
+}
+
+.level3_info .modLeftTopCorner{
+    width:16px;
+    height:46px;
+}
+
+.level3_info .modRightTopCorner{
+    width:15px;
+}
+
+.level3_info .modLeftBottomCorner{
+    height:7px;
+}
+
+.level3_info .modContentList{
+    width:100%;
+}
+
+.level3_info .modTitle{
+    text-align:center;
+    font-size:20px;
+    font-weight:bold;
+    margin:20px 0px;
+}
+
+.level3_info .modUpNext{
+    width:100%;
+    height:25px;
+}
+
+.level3_info .modUp{
+    width:240px;
+    height:24px;
+    float:left;
+    text-align:center;
+    overflow:hidden;
+}
+
+.level3_info .modUp a:hover{
+    color:#FF0000;
+}
+
+.level3_info .modNext{
+    width:200px;
+    height:24px;
+    float:left;
+    text-align:center;
+    overflow:hidden;
+}
+
+.level3_info .modNext a:hover{
+    color:#FF0000;
+}
+
+.level3_info .modEditor{
+    width:200px;
+    height:24px;
+    float:left;
+    text-align:center;
+    overflow:hidden;
+}
+
+.level3_info .modEditor a{
+    color:#00A5C0;
+}
+
+.level3_info .modImg{
+    text-align:center;
+}
+
+/* .............................................. level3_Recruitment .................................................. */
+
+.level3_Recruitment{
+    width:700px;
+    left:10px;
+}
+
+.level3_Recruitment .modLeftTitle{
+    padding-left:30px;
+    padding-top:16px;
+    color:#FFF;
+}
+
+.level3_Recruitment .modContent{
+    background-color:#FFF;
+}
+
+.level3_Recruitment .modContentList{
+    width:100%;
+    text-align:center;
+}
+
+.level3_Recruitment .modLeftTopCorner{
+    width:16px;
+    height:46px;
+}
+
+.level3_Recruitment .modRightTopCorner{
+    width:15px;
+}
+
+.level3_Recruitment .modLeftBottomCorner{
+    height:7px;
+}
+
+.level3_Recruitment .biaoti{
+    font-size:16px;
+    font-weight:bold;
+    color:#FF6600;
+}
+
+.level3_Recruitment .news{
+    width:100%;
+}
+
+.level3_Recruitment .hang{
+    background-color:#F4F4F4;
+}
+
+.level3_Recruitment .shuomingt{
+    text-align:left;
+    font-weight:bold;
+    font-size:14px;
+    padding-left:15px;
+}
+
+.level3_Recruitment .shuoming{
+    text-align:left;
+    padding-left:15px;
+}
+
+.level3_Recruitment .anniu{
+    width:100%;
+    text-align:center;
+    padding-top:10px;
+}
+
+.level3_Recruitment .shenqing1{
+    cursor:pointer;
+}
+.xiaoyuanjj_spen{
+	font-size: 14pt;
+	font-family: 宋体;
+	text-indent: 28pt; 
+	line-height: 24pt; }
+.xiaoyuanjj_ss{
+	margin-top:15px;}
+.xiaoyuanjj_spon{
+	list-style:inside;
+	font-size: 14pt;
+	text-indent: 28pt; 
+	line-height: 24pt;
+	margin-bottom:15px; }
+.xiaoyuanjj_jj{
+	font-size: 12pt;
+	text-indent: 40pt; 
+	line-height: 24pt;
+	margin-top:15px; }
+.xiaoyuanjj_jt{
+	font-size: 12pt;
+	text-indent: 40pt; 
+	line-height: 24pt;
+	}
+
+.xiaoyuanjj_jy{
+	font-size: 13pt; 
+	line-height: 24pt;
+	margin-top:15px; }
+.ruyuan_h2{
+	margin:10px; 0 10px 0;}

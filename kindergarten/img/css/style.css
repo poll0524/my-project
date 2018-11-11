@@ -1,0 +1,1300 @@
+@charset "gbk";
+
+#BAIDU_DSPUI_FLOWBAR,.ad,div[class^="ad-widsget"],div.ad960-90,div.ad-side,table.adtable,div.a_mu,div.a_h,ins.adsbygoogle,div.ad_pic,div#ggPar,div.wp.a_f,div.wp.a_t,div.a_p,div.a_pb,div.a_pt,div.a_pr,#preAdContent,div.a_cn,div.bm.a_c,div[id^="div-gpt-ad-"]{display:none !important;}
+
+#headerContainer{
+    background-image: url(../../imges/style/header_wasys.jpg);
+    height:266px;
+}
+
+/*  ............................................ header ............................................  */
+
+#header .logo{
+    top:50px;
+    left:300px;
+}
+
+/*............................................... 导航栏 风格2 .................................................. */
+
+#menuContainer .mainMenuContainer{
+    margin-left:75px;
+    margin-top:20px;
+}
+
+#menuContainer .mainMenuContainer a{
+    padding:0 10px;
+    color:#FFF;
+}
+
+#menuContainer .mainMenuContainer .activated{
+    color:#A13036;
+}
+
+/*  .................................................. 大框架部分 ................................................. */
+#bodyContainer{
+    background-image:url(../../imges/style/Body_wasys.jpg);
+    background-repeat:no-repeat;
+    background-color:#FFF;
+}
+
+#bodyContainer .firstContainer{
+    height:auto;
+    padding-left:5px;
+    margin-bottom:5px;
+}
+
+#bodyContainer .secondContainer .leftTwo{
+    position:relative;
+    width:100%;
+    padding-left:15px;
+    float:left;
+}
+
+#bodyContainer .secondContainer .rightTwo{
+    position:relative;
+    text-align:center;
+    width:260px;
+    float:left;
+}
+
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^用户登录 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+
+.login{
+    margin-right:3px;
+    width:240px;
+    height:287px;
+}
+
+.login .modLeftTitle{
+    margin-left:45px;
+    margin-top:15px;
+}
+
+.login .modContent{
+    background-color:#FFF;
+    width:181px;
+    height:199px;
+    margin-top:0px;
+}
+
+.login .modLeftTopCorner{
+    background-image: url(../images/style/loginTopLeft_wasys.jpg);
+    width:25px;
+    height:56px;
+}
+
+.login .modTopLine{
+    background-image: url(../images/style/loginTopMid_wasys.jpg);
+}
+
+.login .modRightTopCorner{
+    background-image: url(../images/style/loginTopRight_wasys.jpg);
+    width:34px;
+}
+
+.login .modLeftLine{
+    background-image:url(../../imges/style/loginMidLeft_wasys.jpg);
+}
+
+.login .modRightLine{
+    background-image:url(../../imges/style/loginMidRight_wasys.jpg);
+}
+
+.login .modLeftBottomCorner{
+    background-image:url(../../imges/style/loginBotLeft_wasys.jpg);
+    height:32px;
+}
+
+.login .modBottomLine{
+    background-image: url(../images/style/loginBotMid_wasys.jpg);
+}
+
+.login .modRightBottomCorner{
+    background-image:url(../../imges/style/loginBotRight_wasys.jpg);
+}
+
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ videoPicture ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+
+.videoPicture{
+    margin:0 4px;
+    width:239px;
+    height:287px;
+}
+
+.videoPicture .modLeftTitle{
+    margin-left:45px;
+    margin-top:15px;
+    color:#CC6666;
+}
+
+.videoPicture .modRightTitle{
+    display:none;
+}
+
+.videoPicture .modContent{
+    background-color:#FFF;
+    width:187px;
+    height:201px;
+    margin-top:0px;
+}
+
+.videoPicture .modLeftTopCorner{
+    background-image:url(../../imges/style/videoTopLeft_wasys.jpg);
+    width:25px;
+    height:56px;
+}
+
+.videoPicture .modTopLine{
+    background-image:url(../../imges/style/videoTopMid_wasys.jpg);
+}
+
+.videoPicture .modRightTopCorner{
+    background-image:url(../../imges/style/videoTopRight_wasys.jpg);
+    width:27px;
+}
+
+.videoPicture .modLeftLine{
+    background-image:url(../../imges/style/videoMidLeft_wasys.jpg);
+}
+
+.videoPicture .modRightLine{
+    background-image:url(../../imges/style/videoMidRight_wasys.jpg);
+}
+
+.videoPicture .modLeftBottomCorner{
+    background-image:url(../../imges/style/videoBotLeft_wasys.jpg);
+    height:30px;
+}
+
+.videoPicture .modBottomLine{
+    background-image:url(../../imges/style/videoBotMid_wasys.jpg);
+}
+
+.videoPicture .modRightBottomCorner{
+    background-image:url(../../imges/style/videoBotRight_wasys.jpg);
+}
+
+.videoPicture img{
+    margin-top:50px;
+    margin-left:5px;
+}
+
+/*..........................................journal......................................................*/
+
+.journal{
+    margin:0 4px;
+    width:239px;
+    height:287px;
+}
+
+.journal .modLeftTitle{
+    margin-left:45px;
+    margin-top:15px;
+    color:#CC6666;
+}
+
+.journal .modRightTitle{
+    display:none;
+}
+
+.journal .modContent{
+    background-color:#FFF;
+    width:179px;
+    height:205px;
+    margin-top:0px;
+}
+
+.journal .modLeftTopCorner{
+    background-image:url(../../imges/style/journal-TopLeft_wasys.jpg);
+    width:33px;
+    height:55px;
+}
+
+.journal .modTopLine{
+    background-image:url(../../imges/style/journal-TopMid_wasys.jpg);
+}
+
+.journal .modRightTopCorner{
+    background-image:url(../../imges/style/journal-TopRight_wasys.jpg);
+    width:30px;
+}
+
+.journal .modLeftLine{
+    background-image:url(../../imges/style/journal-MidLeft_wasys.jpg);
+}
+
+.journal .modRightLine{
+    background-image:url(../../imges/style/journal-MidRight_wasys.jpg);
+}
+
+.journal .modLeftBottomCorner{
+    background-image:url(../../imges/style/journal-BotLeft_wasys.jpg);
+    height:27px;
+}
+
+.journal .modBottomLine{
+    background-image:url(../../imges/style/journal-BotMid_wasys.jpg);
+}
+
+.journal .modRightBottomCorner{
+    background-image:url(../../imges/style/journal-BotRight_wasys.jpg);
+}
+
+.journal .vertical{
+    margin-left:0px;
+    height:189px;
+}
+
+.journal .modFeatureSlideButtons a{
+    background:url(../../imges/style/feature-point_wasys.png) center no-repeat;
+}
+
+.journal .modFeatureSlideButtons a.current{
+    background:url(../../imges/style/feature-point-current_wasys.png) center no-repeat;
+}
+
+.journal .modFeatureSlideButtons .modFeatureSlidePrevious{
+    background:url(../../imges/style/feature-point-up_wasys.png) center no-repeat;
+}
+
+.journal .modFeatureSlideButtons .modFeatureSlideNext{
+    background:url(../../imges/style/feature-point-down_wasys.png) center no-repeat;
+}
+
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ teacherBlog ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+
+.teacherBlog{
+    margin:0 4px;
+    width:239px;
+    height:287px;
+}
+
+.teacherBlog .modLeftTitle{
+    margin-left:45px;
+    margin-top:15px;
+    color:#CC6666;
+}
+
+.teacherBlog .modRightTitle{
+    display:none;
+}
+
+.teacherBlog .modContent{
+    background-color:#FFF;
+    width:178px;
+    height:203px;
+    margin-top:0px;
+}
+
+.teacherBlog .modLeftTopCorner{
+    background-image:url(../../imges/style/teacherB-TopLeft_wasys.jpg);
+    width:30px;
+    height:55px;
+}
+
+.teacherBlog .modTopLine{
+    background-image:url(../../imges/style/teacherB-TopMid_wasys.jpg);
+}
+
+.teacherBlog .modRightTopCorner{
+    background-image:url(../../imges/style/teacherB-TopRight_wasys.jpg);
+    width:31px;
+}
+
+.teacherBlog .modLeftLine{
+    background-image:url(../../imges/style/teacherB-MidLeft_wasys.jpg);
+}
+
+.teacherBlog .modRightLine{
+    background-image:url(../../imges/style/teacherB-MidRight_wasys.jpg);
+}
+
+.teacherBlog .modLeftBottomCorner{
+    background-image:url(../../imges/style/teacherB-BotLeft_wasys.jpg);
+    height:29px;
+}
+
+.teacherBlog .modBottomLine{
+    background-image:url(../../imges/style/teacherB-BotMid_wasys.jpg);
+}
+
+.teacherBlog .modRightBottomCorner{
+    background-image:url(../../imges/style/teacherB-BotRight_wasys.jpg);
+}
+
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ businessCard ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+.businessCard .modLeftTitle{
+    background-image: url(../images/style/titleFlow2_wasys.jpg);
+    width:115px;
+    height:40px;
+    top:2px;
+    left:10px;
+    color:#FFFFCC;
+    padding-left:60px;
+    padding-top:10px;
+}
+
+.businessCard .modLeftTopCorner{
+    background-image:url(../../imges/style/boxTopLeft_wasys.gif);
+    width:17px;
+    height:51px;
+}
+
+.businessCard .modTopLine{
+    background-image:url(../../imges/style/boxTopMid_wasys.gif);
+}
+
+.businessCard .modRightTopCorner{
+    background-image:url(../../imges/style/boxTopRight_wasys.gif);
+    width:18px;
+}
+
+.businessCard .modLeftLine{
+    background-image:url(../../imges/style/boxMidLeft_wasys.gif);
+}
+
+.businessCard .modRightLine{
+    background-image:url(../../imges/style/boxMidRight_wasys.gif);
+}
+
+.businessCard .modLeftBottomCorner{
+    background-image:url(../../imges/style/boxBotLeft_wasys.gif);
+    height:17px;
+}
+
+.businessCard .modBottomLine{
+    background-image:url(../../imges/style/boxBotMid_wasys.gif);
+}
+
+.businessCard .modRightBottomCorner{
+    background-image:url(../../imges/style/boxBotRight_wasys.gif);
+}
+
+.businessCard .modUnit{
+    height:195px;
+}
+
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ infoView ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+.infoView .modLeftTitle{
+    background-image:url(../images/style/titleFlow2_wasys.jpg);
+    width:115px;
+    height:40px;
+    top:2px;
+    left:10px;
+    color:#FFFFCC;
+    padding-left:60px;
+    padding-top:10px;
+}
+
+.infoView .modRightTitle{
+    background-image:url(../imges/style/titleKitty_wasys.jpg);
+    width:51px;
+    height:36px;
+    line-height:36px;
+    font-weight:bold;
+    text-align:center;
+    top:2px;
+    right:10px;
+}
+
+.infoView .modRightTitle a{
+    color:#FFC900;
+}
+
+.infoView .modLeftTopCorner{
+    background-image:url(../../imges/style/boxTopLeft_wasys.gif);
+    width:17px;
+    height:51px;
+}
+
+.infoView .modTopLine{
+    background-image:url(../../imges/style/boxTopMid_wasys.gif);
+}
+
+.infoView .modRightTopCorner{
+    background-image:url(../../imges/style/boxTopRight_wasys.gif);
+    width:18px;
+}
+
+.infoView .modLeftLine{
+    background-image: url(../images/style/boxMidLeft_wasys.gif);
+	z-index:-100
+}
+
+.infoView .modRightLine{
+    background-image:url(../../imges/style/boxMidRight_wasys.gif);
+}
+
+.infoView .modLeftBottomCorner{
+    background-image:url(../../imges/style/boxBotLeft_wasys.gif);
+    height:17px;
+}
+
+.infoView .modBottomLine{
+    background-image:url(../../imges/style/boxBotMid_wasys.gif);
+}
+
+.infoView .modRightBottomCorner{
+    background-image:url(../../imges/style/boxBotRight_wasys.gif);
+}
+
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ picView ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+.picView {
+    width:968px;
+}
+
+.picView .modLeftTitle{
+    background-image: url(../images/style/titleFlower1_wasys.jpg);
+    width:125px;
+    height:40px;
+    top:2px;
+    left:0px;
+    color:#FFFFCC;
+    padding-left:60px;
+    padding-top:10px;
+}
+
+.picView .modRightTitle{
+    background-image:url(../../imges/style/titleKitty_wasys.jpg);
+    width:51px;
+    height:36px;
+    line-height:36px;
+    font-weight:bold;
+    text-align:center;
+    top:2px;
+    right:10px;
+}
+
+.picView .modRightTitle a{
+    color:#FFC900;
+}
+
+.picView .modContent{
+    height:171px;
+    background-color:#FFF;
+    float:left;
+}
+
+.picView .modMarqueeContainer{
+    width:425px;
+}
+
+.picView .modLeftTopCorner{
+    background-image:url(../../imges/style/activeTopLeft_wasys.gif);
+    width:18px;
+    height:50px;
+}
+
+.picView .modTopLine{
+    background-image: url(../../imges/style/activeTopMid_wasys.gif);
+}
+
+.picView .modRightTopCorner{
+    background-image: url(../images/style/activeTopRight_wasys.gif);
+    width:18px;
+}
+
+.picView .modLeftLine{
+    background-image: url(../images/style/activeMidLeft_wasys.gif);
+}
+
+.picView .modRightLine{
+    background-image:url(../../imges/style/activeMidRight_wasys.gif);
+}
+
+.picView .modLeftBottomCorner{
+    background-image:url(../../imges/style/activeBotLeft_wasys.gif);
+    height:15px;
+}
+
+.picView .modBottomLine{
+    background-image: url(../images/style/activeBotMid_wasys.gif);
+}
+
+.picView .modRightBottomCorner{
+    background-image:url(../../imges/style/activeBotRight_wasys.gif);
+}
+
+.picView .modPart2{
+    margin-top:0px;
+}
+
+.picView .modFeatureSlide{
+    background-image: url(../../imges/style/activeContent_wsays.gif);
+    background-repeat:no-repeat;
+    width:195px;
+    height:171px;
+    margin-left:8px;
+}
+
+.picView .modFeatureSlideButtons{
+    margin-left:25px;
+}
+
+.picView .modFeatureslideBlock{
+    margin:12px 0px 0px 15px;
+}
+
+.picView .modFeatureSlidePreview .modImgContainer img{
+    border:#FFFFFF solid 2px;
+}
+
+.picView .modFeatureSlideButtons a{
+    background:url(../../imges/skin_5_50/feature-point_wasys.png) center no-repeat;
+}
+
+.picView .modFeatureSlideButtons a.current{
+    background:url(../../imges/skin_5_50/feature-point-current_wasys.png) center no-repeat;
+}
+
+.picView .modFeatureSlideButtons .modFeatureSlidePrevious{
+    background: url(../../imges/skin_5_50/feature-point-previous_wasys.png) center no-repeat;
+}
+
+.picView .modFeatureSlideButtons .modFeatureSlideNext{
+    background: url(../../imges/skin_5_50/feature-point-next_wasys.png) center no-repeat;
+}
+
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ special520 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+.special520 {
+    width:664px;
+}
+
+.special520 .modLeftTitle{
+    background-image:url(../../imges/style/titleFlower1_wasys.jpg);
+    width:125px;
+    height:40px;
+    top:2px;
+    left:0px;
+    color:#FFFFCC;
+    padding-left:60px;
+    padding-top:10px;
+}
+
+.special520 .modRightTitle{
+    background-image:url(../../imges/style/titleKitty_wasys.jpg);
+    width:51px;
+    height:36px;
+    line-height:36px;
+    font-weight:bold;
+    text-align:center;
+    top:2px;
+    right:10px;
+}
+
+.special520 .modRightTitle a{
+    color:#FFC900;
+}
+
+.special520 .modContent{
+    width:635px;
+    height:273px;
+    background-color:#FFF;
+    float:left;
+}
+
+.special520 .modLeftTopCorner{
+    background-image:url(../../imges/style/520TopLeft_wasys.jpg);
+    width:13px;
+    height:50px;
+}
+
+.special520 .modTopLine{
+    background-image:url(../../imges/style/520TopMid_wasys.jpg);
+}
+
+.special520 .modRightTopCorner{
+    background-image:url(../../imges/style/520TopRight_wasys.jpg);
+    width:16px;
+}
+
+.special520 .modLeftLine{
+    background-image:url(../../imges/style/520MidLeft_wasys.jpg);
+}
+
+.special520 .modRightLine{
+    background-image:url(../../imges/style/520MidRight_wasys.jpg);
+}
+
+.special520 .modLeftBottomCorner{
+    background-image:url(../../imges/style/520BotLeft_wasys.jpg);
+    height:17px;
+}
+
+.special520 .modBottomLine{
+    background-image:url(../../imges/style/520BotMid_wasys.jpg);
+}
+
+.special520 .modRightBottomCorner{
+    background-image:url(../../imges/style/520BotRight_wasys.jpg);
+}
+
+.special520 .mod520Frame{
+    width:635px;
+    height:275px;
+}
+
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ area520Module ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+.area520Module .subjectMenu{
+    width:300px;
+    height:30px;
+    border-bottom:#D56501 solid 2px;
+}
+
+.area520Module .subjectMenu .area520SubjectActive{
+    background-image:url(../../imges/style/520Active_wasys.jpg);
+    width:100px;
+    height:25px;
+    top:7px;
+    color:#D56501;
+}
+
+.area520Module .subjectMenu .area520SubjectDesactive{
+    background-image:url(../../imges/style/520DesActive_wasys.jpg);
+    background-repeat:no-repeat;
+    width:116px;
+    height:25px;
+    top:7px;
+}
+
+.area520Module .leftContent{
+    background-image:url(../../imges/style/520ImgBg_wasys.jpg);
+    width:251px;
+    height:268px;
+    padding-top:15px;
+    padding-left:0px;
+}
+
+.area520Module .rightContent{
+    margin-left:14px;
+}
+
+.area520Module .recommendUnit .unitLeft{
+    color:#A18730;
+}
+
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ classShows ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+.classShows .modLeftTitle{
+    background-image:url(../../imges/style/titleFlow2_wasys.jpg);
+    width:115px;
+    height:40px;
+    top:2px;
+    left:10px;
+    color:#FFFFCC;
+    padding-left:60px;
+    padding-top:10px;
+}
+
+.classShows .modRightTitle{
+    background-image:url(../../imges/style/titleKitty_wasys.jpg);
+    width:51px;
+    height:36px;
+    line-height:36px;
+    font-weight:bold;
+    text-align:center;
+    top:2px;
+    right:10px;
+}
+
+.classShows .modRightTitle a{
+    color:#FFC900;
+}
+
+.classShows .modLeftTopCorner{
+    background-image:url(../../imges/style/boxTopLeft_wasys.gif);
+    width:17px;
+    height:51px;
+}
+
+.classShows .modTopLine{
+    background-image:url(../../imges/style/boxTopMid_wasys.gif);
+}
+
+.classShows .modRightTopCorner{
+    background-image:url(../../imges/style/boxTopRight_wasys.gif);
+    width:18px;
+}
+
+.classShows .modLeftLine{
+    background-image:url(../../imges/style/boxMidLeft_wasys.gif);
+}
+
+.classShows .modRightLine{
+    background-image:url(../../imges/style/boxMidRight_wasys.gif);
+}
+
+.classShows .modLeftBottomCorner{
+    background-image:url(../../imges/style/boxBotLeft_wasys.gif);
+    height:17px;
+}
+
+.classShows .modBottomLine{
+    background-image:url(../../imges/style/boxBotMid_wasys.gif);
+}
+
+.classShows .modRightBottomCorner{
+    background-image:url(../../imges/style/boxBotRight_wasys.gif);
+}
+
+/*.........................studentBlog............................*/
+
+.studentBlog .modLeftTitle{
+    background-image:url(../../imges/style/titleFlow2_wasys.jpg);
+    width:115px;
+    height:40px;
+    top:2px;
+    left:10px;
+    color:#FFFFCC;
+    padding-left:60px;
+    padding-top:10px;
+}
+
+.studentBlog .modRightTitle{
+    background-image:url(../../imges/style/titleKitty_wasys.jpg);
+    width:51px;
+    height:36px;
+    line-height:36px;
+    font-weight:bold;
+    text-align:center;
+    top:2px;
+    right:10px;
+}
+
+.studentBlog .modRightTitle a{
+    color:#FFC900;
+}
+
+.studentBlog .modLeftTopCorner{
+    background-image:url(../../imges/style/boxTopLeft_wasys.gif);
+    width:17px;
+    height:51px;
+}
+
+.studentBlog .modTopLine{
+    background-image:url(../../imges/style/boxTopMid_wasys.gif);
+}
+
+.studentBlog .modRightTopCorner{
+    background-image:url(../../imges/style/boxTopRight_wasys.gif);
+    width:18px;
+}
+
+.studentBlog .modLeftLine{
+    background-image:url(../../imges/style/boxMidLeft_wasys.gif);
+}
+
+.studentBlog .modRightLine{
+    background-image:url(../../imges/style/boxMidRight_wasys.gif);
+}
+
+.studentBlog .modLeftBottomCorner{
+    background-image:url(../../imges/style/boxBotLeft_wasys.gif);
+    height:17px;
+}
+
+.studentBlog .modBottomLine{
+    background-image:url(../../imges/style/boxBotMid_wasys.gif);
+}
+
+.studentBlog .modRightBottomCorner{
+    background-image:url(../../imges/style/boxBotRight_wasys.gif);
+}
+
+/*.............................statistics................................*/
+
+.statistics .modLeftTitle{
+    background-image:url(../../imges/style/titleFlow2_wasys.jpg);
+    width:115px;
+    height:40px;
+    top:2px;
+    left:0px;
+    color:#FFFFCC;
+    padding-left:60px;
+    padding-top:10px;
+}
+
+.statistics .modLeftTopCorner{
+    background-image:url(../../imges/style/boxTopLeft_wasys.gif);
+    width:17px;
+    height:51px;
+}
+
+.statistics .modTopLine{
+    background-image:url(../../imges/style/boxTopMid_wasys.gif);
+}
+
+.statistics .modRightTopCorner{
+    background-image:url(../../imges/style/boxTopRight_wasys.gif);
+    width:18px;
+}
+
+.statistics .modLeftLine{
+    background-image:url(../../imges/style/boxMidLeft_wasys.gif);
+}
+
+.statistics .modRightLine{
+    background-image:url(../../imges/style/boxMidRight_wasys.gif);
+}
+
+.statistics .modLeftBottomCorner{
+    background-image:url(../../imges/style/boxBotLeft_wasys.gif);
+    height:17px;
+}
+
+.statistics .modBottomLine{
+    background-image:url(../../imges/style/boxBotMid_wasys.gif);
+}
+
+.statistics .modRightBottomCorner{
+    background-image:url(../../imges/style/boxBotRight_wasys.gif);
+}
+
+/*.........................friendLink............................*/
+.friendLink .modLeftTitle{
+    background-image:url(../../imges/style/titleFlow2_wasys.jpg);
+    width:115px;
+    height:40px;
+    top:2px;
+    left:0px;
+    color:#FFFFCC;
+    padding-left:60px;
+    padding-top:10px;
+}
+
+.friendLink .modLeftTopCorner{
+    background-image:url(../../imges/style/boxTopLeft_wasys.gif);
+    width:17px;
+    height:51px;
+}
+
+.friendLink .modTopLine{
+    background-image:url(../../imges/style/boxTopMid_wasys.gif);
+}
+
+.friendLink .modRightTopCorner{
+    background-image:url(../../imges/style/boxTopRight_wasys.gif);
+    width:18px;
+}
+
+.friendLink .modLeftLine{
+    background-image:url(../../imges/style/boxMidLeft_wasys.gif);
+}
+
+.friendLink .modRightLine{
+    background-image:url(../../imges/style/boxMidRight_wasys.gif);
+}
+
+.friendLink .modLeftBottomCorner{
+    background-image:url(../../imges/style/boxBotLeft_wasys.gif);
+    height:17px;
+}
+
+.friendLink .modBottomLine{
+    background-image:url(../../imges/style/boxBotMid_wasys.gif);
+}
+
+.friendLink .modRightBottomCorner{
+    background-image:url(../../imges/style/boxBotRight_wasys.gif);
+}
+
+/* .............................................. footer .................................................. */
+#footer{
+    background-image:url(../../imges/style/bottom_wasys.jpg);
+	height:125px;
+}
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/*                                                             2级页面
+*/
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+/* .............................................. 用户登录 .................................................. */
+
+.loginIFrame{
+    left:0px;
+}
+
+.loginIFrame .loginUnit{
+    margin:0px;
+    height:35px;
+}
+
+.loginIFrame .loginUnit input{
+    background-image:url(../../imges/style/loginTxt_wasys.jpg);
+    width:108px;
+    height:31px;
+    line-height:25px;
+    padding-left:15px;
+    border:none;
+    vertical-align:middle;
+
+}
+
+.loginIFrame .loginButton input{
+    background-image:url(../../imges/style/LoginBonttom_wasys.jpg);
+    width:92px;
+    height:73px;
+    color:#CC9900;
+}
+
+.loginIFrame .loginHelp a{
+    color:#990000;
+}
+
+.logoutIFrame{
+    left:0px;
+}
+
+.logoutIFrame .linkButton input{
+    background-image:url(../../imges/style/loginLink_wasys.jpg);
+    width:85px;
+    height:31px;
+    border:none;
+}
+
+.logoutIFrame .logoutButton input{
+    background-image:url(../../imges/style/LoginBonttom_wasys.jpg);
+    width:92px;
+    height:73px;
+    color:#CC9900;
+}
+
+/* .............................................. level2_blog .................................................. */
+
+.level2_blog .modLeftTopCorner{
+    width:17px;
+    height:51px;
+    background-image:url(../../imges/style/boxTopLeft_wasys.gif);
+}
+
+.level2_blog .modTopLine{
+    background-image:url(../../imges/style/boxTopMid_wasys.gif);
+}
+
+.level2_blog .modRightTopCorner{
+    width:18px;
+    background-image:url(../../imges/style/boxTopRight_wasys.gif);
+}
+
+.level2_blog .modLeftLine{
+    background-image:url(../../imges/style/boxMidLeft_wasys.gif);
+}
+
+.level2_blog .modRightLine{
+    background-image:url(../../imges/style/boxMidRight_wasys.gif);
+}
+
+.level2_blog .modLeftBottomCorner{
+    height:17px;
+    background-image:url(../../imges/style/boxBotLeft_wasys.gif);
+}
+
+.level2_blog .modBottomLine{
+    background-image:url(../../imges/style/boxBotMid_wasys.gif);
+}
+
+.level2_blog .modRightBottomCorner{
+    background-image:url(../../imges/style/boxBotRight_wasys.gif);
+}
+
+.level2_blog .modGPSubmit{
+    background-image:url(../../imges/style/tiaozhuan_wasys.gif);
+}
+
+/* .............................................. level520 .................................................. */
+
+.level520 .modLeftTitle{
+    top:3px;
+    left:3px;
+    padding-left:50px;
+    background-image:url(../../imges/style/titleFlow2_wasys.jpg);
+}
+
+.level520 .modLeftTopCorner{
+    width:17px;
+    height:51px;
+    background-image:url(../../imges/style/boxTopLeft_wasys.gif);
+}
+
+.level520 .modTopLine{
+    background-image:url(../../imges/style/boxTopMid_wasys.gif);
+}
+
+.level520 .modRightTopCorner{
+    width:18px;
+    background-image:url(../../imges/style/boxTopRight_wasys.gif);
+}
+
+.level520 .modLeftLine{
+    background-image:url(../../imges/style/boxMidLeft_wasys.gif);
+}
+
+.level520 .modRightLine{
+    background-image:url(../../imges/style/boxMidRight_wasys.gif);
+}
+
+.level520 .modLeftBottomCorner{
+    height:17px;
+    background-image:url(../../imges/style/boxBotLeft_wasys.gif);
+}
+
+.level520 .modBottomLine{
+    background-image:url(../../imges/style/boxBotMid_wasys.gif);
+}
+
+.level520 .modRightBottomCorner{
+    background-image:url(../../imges/style/boxBotRight_wasys.gif);
+}
+
+/* .............................................. level2_classes .................................................. */
+
+.level2_classes .modLeftTopCorner{
+    width:17px;
+    height:51px;
+    background-image:url(../../imges/style/boxTopLeft_wasys.gif);
+}
+
+.level2_classes .modTopLine{
+    background-image:url(../../imges/style/boxTopMid_wasys.gif);
+}
+
+.level2_classes .modRightTopCorner{
+    width:18px;
+    background-image:url(../../imges/style/boxTopRight_wasys.gif);
+}
+
+.level2_classes .modLeftLine{
+    background-image:url(../../imges/style/boxMidLeft_wasys.gif);
+}
+
+.level2_classes .modRightLine{
+    background-image:url(../../imges/style/boxMidRight_wasys.gif);
+}
+
+.level2_classes .modLeftBottomCorner{
+    height:17px;
+    background-image:url(../../imges/style/boxBotLeft_wasys.gif);
+}
+
+.level2_classes .modBottomLine{
+    background-image:url(../../imges/style/boxBotMid_wasys.gif);
+}
+
+.level2_classes .modRightBottomCorner{
+    background-image:url(../../imges/style/boxBotRight_wasys.gif);
+}
+
+.level2_classes .modGPSubmit{
+    background-image:url(../../imges/style/tiaozhuan_wasys.gif);
+}
+
+/* .............................................. level2_info .................................................. */
+
+.level2_info .modLeftTopCorner{
+    width:17px;
+    height:51px;
+    background-image:url(../../imges/style/boxTopLeft_wasys.gif);
+}
+
+.level2_info .modTopLine{
+    background-image:url(../../imges/style/boxTopMid_wasys.gif);
+}
+
+.level2_info .modRightTopCorner{
+    width:18px;
+    background-image:url(../../imges/style/boxTopRight_wasys.gif);
+}
+
+.level2_info .modLeftLine{
+    background-image:url(../../imges/style/boxMidLeft_wasys.gif);
+}
+
+.level2_info .modRightLine{
+    background-image:url(../../imges/style/boxMidRight_wasys.gif);
+}
+
+.level2_info .modLeftBottomCorner{
+    height:17px;
+    background-image:url(../../imges/style/boxBotLeft_wasys.gif);
+}
+
+.level2_info .modBottomLine{
+    background-image:url(../../imges/style/boxBotMid_wasys.gif);
+}
+
+.level2_info .modRightBottomCorner{
+    background-image:url(../../imges/style/boxBotRight_wasys.gif);
+}
+.level2_info .modGPSubmit{
+    background-image:url(../../imges/style/tiaozhuan_wasys.gif);
+}
+
+/* .............................................. level2_picture .................................................. */
+
+.level2_picture .modLeftTopCorner{
+    width:17px;
+    height:51px;
+    background-image:url(../../imges/style/boxTopLeft_wasys.gif);
+}
+
+.level2_picture .modTopLine{
+    background-image:url(../../imges/style/boxTopMid_wasys.gif);
+}
+
+.level2_picture .modRightTopCorner{
+    width:18px;
+    background-image:url(../../imges/style/boxTopRight_wasys.gif);
+}
+
+.level2_picture .modLeftLine{
+    background-image:url(../../imges/style/boxMidLeft_wasys.gif);
+}
+
+.level2_picture .modRightLine{
+    background-image:url(../../imges/style/boxMidRight_wasys.gif);
+}
+
+.level2_picture .modLeftBottomCorner{
+    height:17px;
+    background-image:url(../../imges/style/boxBotLeft_wasys.gif);
+}
+
+.level2_picture .modBottomLine{
+    background-image:url(../../imges/style/boxBotMid_wasys.gif);
+}
+
+.level2_picture .modRightBottomCorner{
+    background-image:url(../../imges/style/boxBotRight_wasys.gif);
+}
+
+.level2_picture .modGPSubmit{
+    background-image:url(../../imges/style/tiaozhuan_wasys.gif);
+}
+
+.level2_picture .modUnit{
+    width:185px;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------- */
+/*                                                             3级页面                                                             */
+/* ------------------------------------------------------------------------------------------------------------------------------- */
+
+/* ..............................................level3_editing .................................................. */
+
+.level3_editing .modLeftTopCorner{
+    width:17px;
+    height:51px;
+    background-image:url(../../imges/style/boxTopLeft_wasys.gif);
+}
+
+.level3_editing .modTopLine{
+    background-image:url(../../imges/style/boxTopMid_wasys.gif);
+}
+
+.level3_editing .modRightTopCorner{
+    width:18px;
+    background-image:url(../../imges/style/boxTopRight_wasys.gif);
+}
+
+.level3_editing .modLeftLine{
+    background-image:url(../../imges/style/boxMidLeft_wasys.gif);
+}
+
+.level3_editing .modRightLine{
+    background-image:url(../../imges/style/boxMidRight_wasys.gif);
+}
+
+.level3_editing .modLeftBottomCorner{
+    height:17px;
+    background-image:url(../../imges/style/boxBotLeft_wasys.gif);
+}
+
+.level3_editing .modBottomLine{
+    background-image:url(../../imges/style/boxBotMid_wasys.gif);
+}
+
+.level3_editing .modRightBottomCorner{
+    background-image:url(../../imges/style/boxBotRight_wasys.gif);
+}
+
+/* ..............................................level3_info .................................................. */
+
+.level3_info .modLeftTopCorner{
+    width:17px;
+    height:51px;
+    background-image:url(../../imges/style/boxTopLeft_wasys.gif);
+}
+
+.level3_info .modTopLine{
+    background-image:url(../../imges/style/boxTopMid_wasys.gif);
+}
+
+.level3_info .modRightTopCorner{
+    width:18px;
+    background-image:url(../../imges/style/boxTopRight_wasys.gif);
+}
+
+.level3_info .modLeftLine{
+    background-image:url(../../imges/style/boxMidLeft_wasys.gif);
+}
+
+.level3_info .modRightLine{
+    background-image:url(../../imges/style/boxMidRight_wasys.gif);
+}
+
+.level3_info .modLeftBottomCorner{
+    height:17px;
+    background-image:url(../../imges/style/boxBotLeft_wasys.gif);
+}
+
+.level3_info .modBottomLine{
+    background-image:url(../../imges/style/boxBotMid_wasys.gif);
+}
+
+.level3_info .modRightBottomCorner{
+    background-image:url(../../imges/style/boxBotRight_wasys.gif);
+}
+
+/* ..............................................level3_Recruitment .................................................. */
+
+.level3_Recruitment .modLeftTitle{
+    top:3px;
+    left:3px;
+    background-image:url(../../imges/style/titleFlow2_wasys.jpg)
+}
+
+.level3_Recruitment .modLeftTopCorner{
+    width:17px;
+    height:51px;
+    background-image:url(../../imges/style/boxTopLeft_wasys.gif);
+}
+
+.level3_Recruitment .modTopLine{
+    background-image:url(../../imges/style/boxTopMid_wasys.gif);
+}
+
+.level3_Recruitment .modRightTopCorner{
+    width:18px;
+    background-image:url(../../imges/style/boxTopRight_wasys.gif);
+}
+
+.level3_Recruitment .modLeftLine{
+    background-image:url(../../imges/style/boxMidLeft_wasys.gif);
+}
+
+.level3_Recruitment .modRightLine{
+    background-image:url(../../imges/style/boxMidRight_wasys.gif);
+}
+
+.level3_Recruitment .modLeftBottomCorner{
+    height:17px;
+    background-image:url(../../imges/style/boxBotLeft_wasys.gif);
+}
+
+.level3_Recruitment .modBottomLine{
+    background-image:url(../../imges/style/boxBotMid_wasys.gif);
+}
+
+.level3_Recruitment .modRightBottomCorner{
+    background-image:url(../../imges/style/boxBotRight_wasys.gif);
+}

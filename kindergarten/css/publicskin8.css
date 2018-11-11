@@ -1,0 +1,165 @@
+@charset "gbk";
+
+/*  ............................................ reset ............................................  */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, pre, sub, sup, tt, var,
+a, img, abbr, acronym, address, big, cite, code, del, dfn, em, ins, kbd, s, samp, center,
+small, strike, strong, b, u, i, dl, ol, ul, fieldset, form, label, table {
+    margin:0;
+    padding:0;
+    border-width:0;
+    outline:0;
+    vertical-align:baseline;
+    background:transparent;
+}
+body{line-height:1;font-size:12px;}
+font{margin:0;padding:0;border-width:0;outline:0;vertical-align:baseline;}
+ol, ul{list-style-type:none;}
+blockquote, q{padding:0;border-width:0;outline:0;vertical-align:baseline;background:transparent;quotes:none;}
+blockquote:before, blockquote:after, q:before, q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+tbody{vertical-align:baseline;}
+:focus{outline:0;}
+
+
+/*  ............................................ public ............................................  */
+body{text-align:center;line-height:200%;}
+font{line-height:normal;}
+a{text-decoration:none;}
+a:hover{text-decoration:underline;}
+.moduleEnd{clear:both;}
+
+/*  ............................................ wrapper ............................................  */
+#backWrapper{
+    position:relative;
+    width:100%;
+    text-align:center;
+}
+
+#topContainer{
+    margin:0px auto;
+    position:relative;
+    width:1002px;
+    z-index:1;
+    background-color:#FFFFFF;
+}
+
+#leftWrapper{
+    position:absolute;
+    z-index:0;
+    display:none;
+}
+
+#rightWrapper{
+    position:absolute;
+    z-index:0;
+    display:none;
+}
+
+/*  ............................................ header ............................................  */
+#headerContainer{
+    width:100%;
+    height:280px;
+    background-repeat:no-repeat;
+}
+
+/*  ............................................ footer ............................................  */
+#footer{
+    position:relative;
+    width:100%;
+    height:100px;
+    clear:both;
+    text-align:center;
+    background-repeat:no-repeat;
+}
+
+#footer .footerContent{
+    position:relative;
+    top:50px;
+}
+
+#footer .footerContent img{
+    vertical-align:middle;
+}
+
+/*  ............................................ moduleBase ............................................  */
+.moduleBase{
+    position:relative;
+    float:left;
+    width:200px;
+    margin:4px;
+}
+
+.moduleBase .modLeftTitle{
+    position:absolute;
+    width:100px;
+    height:30px;
+    font-family:"Microsoft YaHei", Serif;
+    font-weight:bold;
+    font-size:14px;
+    text-align:left;
+    background-repeat:no-repeat;
+}
+
+.moduleBase .modRightTitle{
+    position:absolute;
+    width:100px;
+    height:30px;
+    font-family:"Microsoft YaHei", Serif;
+    font-weight:bold;
+    font-size:14px;
+    right:0px;
+    text-align:right;
+    background-repeat:no-repeat;
+    background-position:right;
+}
+
+.moduleBase .modLeftTopCorner{
+    width:17px;
+    height:45px;
+    background-repeat:no-repeat;
+    background-position:top left;
+}
+
+.moduleBase .modTopLine{
+    background-repeat:repeat-x;
+    background-position:top left;
+}
+
+.moduleBase .modRightTopCorner{
+    width:17px;
+    background-repeat:no-repeat;
+    background-position:top right;
+}
+
+.moduleBase .modLeftLine{
+    background-repeat:repeat-y;
+    background-position:top left;
+}
+
+.moduleBase .modRightLine{
+    background-repeat:repeat-y;
+    background-position:top right;
+}
+
+.moduleBase .modLeftBottomCorner{
+    height:25px;
+    background-repeat:no-repeat;
+    background-position:left bottom;
+}
+
+.moduleBase .modBottomLine{
+    background-repeat:repeat-x;
+    background-position:bottom left;
+}
+
+.moduleBase .modRightBottomCorner{
+    background-repeat:no-repeat;
+    background-position:bottom right;
+}
+
+.moduleBase .modContent{
+    position:relative;
+    overflow:hidden;
+    width:100%;
+    text-align:left;
+}
