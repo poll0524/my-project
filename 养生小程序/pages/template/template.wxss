@@ -1,0 +1,91 @@
+/* 列表 */
+.news-list{
+  /* margin-top: 100rpx; */
+  font-size: 32rpx;
+}
+.noDataTip{
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  color: #ccc;
+  justify-content: center;
+  align-items: center;
+}
+.news-list .list{
+  margin: 30rpx;
+  border-bottom: 1rpx solid #eee;
+  line-height:46rpx;
+  letter-spacing:2rpx;
+  font-weight: 500;
+  position: relative;
+}
+.author{
+  color: #ccc;
+  font-size: 22rpx;
+}
+.list .img-box1{
+  width: 690rpx;
+  height: 414rpx;
+  margin: 20rpx auto;
+}
+.list .img-box2{
+  width: 690rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.list .img-box2>view{
+  width: 220rpx;
+  height: 132rpx;
+  margin:20rpx 0;
+}
+image{
+  width: 100%;
+  height: 100%;
+}
+
+.getFormIdForm{
+  position: relative;
+  
+}
+.getFormIdBtn{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  top: 0;
+  left: 0;
+}
+
+/* 授权弹框 */
+.authorizePop{
+  width: 100%;
+  height: 100%;
+  top: 0;
+  position: fixed;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0,0,0,0.5);
+}
+.popContent{
+  width: 500rpx;
+  height: 500rpx;
+  background-color: #fff;
+}
+.img-box{
+  width: 227rpx;
+  height: 200rpx;
+  margin: 50rpx auto;
+}
+image{
+  width: 100%;
+  height: 100%;
+}
+.btn-box button{
+  height: 60rpx;
+  line-height: 60rpx;
+  width: 50%;
+  font-size: 28rpx;
+  margin: 10rpx auto;
+}

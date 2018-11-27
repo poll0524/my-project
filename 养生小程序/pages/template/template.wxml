@@ -1,0 +1,55 @@
+
+
+<!-- 新闻列表 -->
+<template name='newList'>
+  <view class='news-list'>
+  <view class='noDataTip' wx:if='{{listData.length == 0}}'>暂无数据</view>
+    <view class='list' wx:for='{{listData}}' wx:key='aid' >
+      <form report-submit bindsubmit='clickList' id='{{item.aid}}'>
+        <view class='title'>{{item.title}}</view>
+
+          <view class='img-box1' wx:if='{{ item.thumb.length == 1}}'>
+              <image wx:for='{{item.thumb}}' wx:key='{{index}}' wx:for-item='childItem' src='{{childItem.url}}'></image>
+          </view>
+
+          <view class='img-box2' wx:if='{{item.thumb.length ==3}}'>
+            <view wx:for='{{item.thumb}}' wx:key='{{index}}' wx:for-item='childItem'>
+              <image  src='{{childItem.url}}'></image>
+            </view>
+          </view>
+          <view class='author'>{{item.author}}　{{item.createtime}}</view>
+        <button class='getFormIdBtn' bindtap="checksession" id='{{item.aid}}' hover-class='none' form-type='submit' size='mini'>搜索</button> 
+      </form> 
+    </view>
+  </view>
+</template>
+
+<!-- <navigator url="/pages/details/details?id={{item.aid}}" hover-class="none" class='list' wx:for='{{listData}}' wx:key='id'>
+      <view class='title'>{{item.title}}</view>
+      <view class='img-box1' wx:if='{{ item.thumb.length == 1}}'>
+          <image wx:for='{{item.thumb}}' wx:key='{{index}}' wx:for-item='childItem' src='{{childItem.url}}'></image>
+      </view>
+      <view class='img-box2' wx:if='{{item.thumb.length ==3}}'>
+        <view wx:for='{{item.thumb}}' wx:key='{{index}}' wx:for-item='childItem'>
+          <image  src='{{childItem.url}}'></image>
+        </view>
+      </view>
+      <view class='author'>{{item.author}}　{{item.createtime}}</view>
+    </navigator>
+ -->
+<!-- 授权弹框 -->
+
+<template name='authorizePop'>
+  <view class='authorizePop' catchtouchmove="ture">
+    <view class='popContent'>
+      <view class='img-box'>
+        <image src='../../utils/logo.png'></image>
+      </view>
+      <view class='btn-box'>
+        <button hover-class='none' open-type="getUserInfo" bindgetuserinfo="getUserInfo">确认授权</button>
+        <button hover-class='none' bindtap='goBackIndex'>回到首页</button>
+      </view>
+    </view>
+  </view>
+</template>
+

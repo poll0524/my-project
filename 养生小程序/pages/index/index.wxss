@@ -1,0 +1,49 @@
+/* pages/index/index.wxss */
+@import "../style/iconfont.wxss";
+@import "../template/template.wxss";
+.nav{
+  display: flex; 
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  background-color: #fff;
+  height: 80rpx;
+  line-height: 80rpx;
+  border-bottom: 1rpx solid rgb(221, 220, 220);
+}
+.nav icon{
+  padding: 16rpx 20rpx 0 20rpx;
+  vertical-align: middle;
+}
+.nav-text{
+  font-size: 32rpx;
+  width: 600rpx; 
+  overflow:hidden;white-space:nowrap;
+}
+.moer-line{
+  width: 8rpx;
+  display: inline-block;
+  background: linear-gradient(to right,#fff, #aaa);
+}
+.nav-text text{
+  margin: 0 10rpx;
+  display: inline-block;
+  text-align: center;
+  height: 74rpx;
+}
+.nav-selected{
+  border-bottom: 4rpx solid #f00;
+}
+.user-center{
+  display: inline-block;
+  width: 80rpx;
+  text-align: center;
+}
+
+/* 列表 */
+.news-list{
+  margin-top: 100rpx;
+  font-size: 32rpx;
+ 
+}
+
