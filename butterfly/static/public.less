@@ -1,0 +1,328 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	user-select: none;
+}
+html,body{
+	overflow-x:hidden;
+}
+#app {
+  font-family: '微软雅黑','Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 14px;
+  color: #546370;
+}
+a,a:hover,a:active{
+	text-decoration: none;
+}
+img{
+	width: 100%;
+	height: 100%;
+}
+ul,ol,li{
+	list-style: none;
+}
+/*datepicker*/
+.vdp-datepicker__calendar{
+	color: #546370;
+}
+.vdp-datepicker__calendar .cell.selected{
+	background: #ec6538;
+	color: #fff;
+}
+.vdp-datepicker__calendar .cell.selected:hover{
+	background: #ec6538;
+}
+.vdp-datepicker__calendar .month:hover,
+.vdp-datepicker__calendar .day:hover{
+	border-color: #ec6538 !important;
+}
+.date-span{
+	display: inline-block;
+	background: #ec6538;
+	color: #fff;
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+	padding:0 10px;
+	vertical-align: middle;
+	position: absolute;
+	right: 0;
+}
+.orange-color,.router-link-exact-active,.router-link-active{
+	color: #ec6538 !important;
+}
+.hand-shape{
+	cursor: pointer;
+}
+/*inp-arrow*/
+.inp-arrow{
+	display: flex;
+	height: 25px;
+	width: 25px;
+	background: #ec6538;
+	position: absolute;
+	right: 0;
+	top: 0;
+	justify-content: center;
+	align-items: center;
+	&::after{
+		display:block;
+		width: 5px;
+		height: 5px;
+		content: '';
+		border-right: 1px solid #fff;
+		border-bottom: 1px solid #fff;
+		transform: rotate(45deg);
+		margin-top: -5px;
+	}
+}
+/*swiper*/
+.swiper-pagination-bullet-active{
+	background:#ec6538;
+}
+/*width*/
+.box-maxWidth{
+	max-width: 1200px;
+	min-width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+/*addexp*/
+.addexp-btn{
+	margin: 0 auto;
+	width: 75px;
+	height: 50px;
+	background: url(./images/icons.png) no-repeat;
+	background-position: -231px -15px;
+	filter: drop-shadow(0 1px 2px #999);
+}
+/*flex*/
+.flex{
+	display: flex;
+}
+/*距离底部距离*/
+.box-bottom{
+	margin-bottom: 2px;
+}
+/*最少高度撑满一屏*/
+.center-calc{
+    min-height: calc(100vh - 215px);
+	padding-top: 100px;
+ }
+/**/
+.condition-container{
+		padding: 0 70px 20px;
+		background: #191b2e;
+		position: relative;
+		color: rgba(255,255,255,0.5);
+		.condition-header{
+			position: relative;
+			justify-content: center;
+			padding: 20px 0;
+			border-bottom: 1px solid #ec6538;
+			.search-container{
+				position: static;
+				margin-left: 0;
+				width: 400px;
+				margin-right:100px;
+				.search-box{
+					height: 40px;
+					padding-right: 0;
+					.search-btn{
+						height: 38px;
+						width: 80px;
+						line-height: 38px;
+						font-size: 14px;
+					}
+					input{
+						height: 30px;
+						font-size: 14px;
+					}
+				}
+				.hot-search{
+					span{
+						margin-right: 10px;
+					}
+				}
+
+			}
+		}
+		.condition-btns{
+			background: #ec6538;
+			text-align: center;
+			width: 150px;
+			height: 38px;
+			line-height: 38px;
+			position: absolute;
+			right: 80px;
+			top: 25px;
+			&>a{
+				display: block;
+				color: #fff;
+			}
+			&:hover,&:active{
+				background: #cd562e;
+			}
+			.auth-mask{
+				position: absolute;
+				left: 0;
+				top: 0;
+				width: 100%;
+				height: 100%;
+				z-index: 11;
+				cursor: pointer;
+			}
+		}
+		.condition-filter-box{
+			padding: 20px 0;
+			.condition-list{
+				padding: 5px 0;
+				align-items: center;
+				.condition-list-name{
+					font-size: 16px;
+					color: #fff;
+					padding-right: 30px;
+				}
+				&:last-child .condition-list-name{
+					padding-right:14px;
+				}
+			}
+		}
+	}
+
+	/*相册视频*/
+	.apply-albumvideo{
+		padding: 20px 40px;
+		.closeModal{
+			display: none;
+		}
+		.apply-av{
+			position: relative;
+			.exp-name{
+				padding: 0 15px;
+			}
+			.exp-tips{
+				display: none;
+			}
+			.bottom-tips{
+				position: relative;
+				min-height: 60px;
+				.exp-tips{
+					display: block;
+					left: 0;
+					top: 10px;
+					white-space: pre-wrap;
+					i{
+						margin-right: 5px;
+					}
+				}
+			}
+			.upload-imgbox{
+				width: 100%;
+				.upload-img,.upload-btn{
+					width: 19%;
+				}
+			}
+		}
+		.apply-album-btn{
+			padding: 30px 0;
+			justify-content: center;
+			button{
+				width: 150px;
+				height: 40px;
+				color:#fff;
+				border-radius: 3px;
+				border:none;
+				cursor: pointer;
+				transition: 0.3s;
+				&.prev-btn{
+					background: #191b2e;
+					margin-right: 10px;
+					&:hover{
+						background:#000;
+					}
+				}
+				&.apply-submit{
+					background: #ec6538;
+					&:hover{
+						background:#cd562e;
+					}
+				}
+			}
+		}
+	}
+	.modal-jump{
+		width: 150px;
+		height: 40px;
+		color:#fff;
+		border-radius: 3px;
+		background: #ec6538;
+		border:none;
+		margin:0 auto;
+		display: block;
+	}
+
+/*档期样式*/
+.full-calendar-body .dates .dates-events .events-week .events-day{
+    min-height: 100px;
+  }
+  .schedule-selected{
+	color:#fff;
+	background-color:#ec6538!important;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+  }
+   .day-cell{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+/*权限弹窗*/
+	.auth-tips-title{
+		text-align: left;
+		font-size: 16px;
+		img{
+			width: 30px;
+			height: 30px;
+			vertical-align: bottom;
+			margin-right: 10px;
+		}
+	}
+	.auth-box{
+		p{
+			line-height: 25px;
+			text-indent: 24px;
+		}
+		.auth-btns{
+			text-align: center;
+			padding:20px 0 0;
+			button{
+				padding: 5px 25px;
+				color: #fff;
+				border: none;
+				border-radius: 3px;
+				background:#ec6538;
+				cursor: pointer;
+				transition: 0.3s;
+				&:hover{
+					background:#cd562e;
+				}
+			}
+		}
+	}
+/*文本限制*/
+.text-control{
+	position: relative;
+	span{
+		position: absolute;
+		right: 5px;
+		bottom: 5px;
+		height: auto !important;
+		width: auto !important;
+	}
+}
